@@ -1,6 +1,6 @@
 {
   "name": "@custody/plugin-clear-port-conflicts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Custody plugin to clear port conflicts between processes",
   "main": "src/index.js",
   "scripts": {
