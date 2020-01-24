@@ -35,5 +35,5 @@ async function clearPortConflict(port) {
 
 module.exports = {
   detectPortConflict,
-  clearPortConflict
+  clearPortConflict,
 };

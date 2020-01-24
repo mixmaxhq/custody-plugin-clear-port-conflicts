@@ -14,6 +14,6 @@ module.exports = function({ debug, PROCESS_STATES }) {
         debug('Port conflict cleared. Restarting', name);
         await process.restart();
       })().catch((e) => debug(`Could not fix port conflict for ${name}:`, e));
-    }
+    },
   };
 };
